@@ -17,6 +17,10 @@ import model.Person;
 
 @WebServlet(urlPatterns={"/submit"})
 public class Servlet extends HttpServlet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		/*resp.setContentType("application/json");
