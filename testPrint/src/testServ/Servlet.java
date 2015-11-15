@@ -22,6 +22,7 @@ public class Servlet extends HttpServlet {
 			pw.println(str1);
 		}
 		req.setAttribute("smg", "message here");
+		System.out.println("update from server");
 		req.getRequestDispatcher("index.jsp").forward(req, resp);
 		
 	}
