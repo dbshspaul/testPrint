@@ -27,6 +27,7 @@ public class Servlet extends HttpServlet {
 	}
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		System.out.prontln("update from server");
 		doGet(req, resp);
 	}
 }
